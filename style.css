@@ -1,11 +1,97 @@
-body {
-    font-family: Arial, sans-serif;
+/* Reset de margens e paddings */
+* {
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
-    color: #333;
-    text-align: center;
+    box-sizing: border-box;
 }
+
+/* Corpo */
+body {
+    font-family: 'Arial', sans-serif; /* Fonte limpa e moderna */
+    background-color: #f4f4f9; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    line-height: 1.6; /* Melhora a legibilidade */
+    padding: 20px;
+}
+
+/* Cabeçalho */
 h1 {
+    color: #4CAF50; /* Verde vibrante */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Seção sobre mim */
+#about-me {
+    background-color: #ffffff; /* Fundo branco para destacar */
+    padding: 20px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-top: 20px;
+}
+
+#about-me h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+#about-me p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+}
+
+/* Estilos para links */
+a {
+    color: #4CAF50; /* Cor dos links */
+    text-decoration: none; /* Retira o sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha no hover */
+}
+
+/* Estilo para seções */
+section {
+    margin: 20px 0;
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    #about-me {
+        padding: 15px;
+    }
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    font-size: 1.2em;
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover {
     color: #4CAF50;
+}
+    
 }
