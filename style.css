@@ -100,4 +100,22 @@ a:hover {
     #about-me {
         padding: 20px;
     }
+
+/* Estilos da barra de navegação */
+nav {
+    background-color: #ffffff;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: top 0.3s; /* Suaviza a animação de esconder/mostrar */
+}
+
+/* Quando a navegação estiver oculta */
+nav.hidden {
+    top: -60px; /* Move a barra para fora da tela */
+}
 }
