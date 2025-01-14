@@ -29,5 +29,23 @@
         <p>Estou sempre em busca de novos desafios e oportunidades de aprender mais, especialmente nas áreas de negócios e análise de dados!.</p>
     </section>
 
+     <script>
+        let lastScrollTop = 0; // Armazena a última posição de rolagem
+        const nav = document.querySelector('nav'); // Seleciona a barra de navegação
+
+        window.addEventListener('scroll', function() {
+            let currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+
+            // Verifica a direção do scroll
+            if (currentScroll > lastScrollTop) {
+                // Rolando para baixo: esconde a navegação
+                nav.classList.add('hidden');
+            } else {
+                // Rolando para cima: mostra a navegação
+                nav.classList.remove('hidden');
+            }
+            lastScrollTop = currentScroll <= 0 ? 0 : currentScroll; // Evita valores negativos
+        });
+    </script>
 </body>
 </html>
