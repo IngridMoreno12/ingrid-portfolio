@@ -71,6 +71,8 @@ nav.hidden {
 /* Seção Sobre Mim */
 #about-me {
     padding: 30px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
     margin-top: 30px;
 }
 
@@ -143,18 +145,4 @@ a:hover {
         width: 80px; /* Ajuste o tamanho da imagem em telas pequenas */
         height: 80px; /* Ajuste o tamanho da imagem em telas pequenas */
     }
-}
-
-/* Responsividade para dispositivos grandes (PC) */
-.about-container {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* Espaçamento entre imagem e texto */
-}
-
-.profile-img img {
-    width: 100px; /* Tamanho da imagem */
-    height: 100px; /* Tamanho da imagem */
-    border-radius: 50%; /* Formato arredondado */
-    object-fit: cover; /* A imagem vai se ajustar dentro do círculo */
 }
