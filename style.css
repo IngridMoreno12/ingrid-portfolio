@@ -77,8 +77,16 @@ nav.hidden {
 /* Estilos para os blocos individuais dentro da seção Sobre Mim */
 .about-container {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre imagem e texto */
+}
+
+/* Estilos para a imagem de perfil */
+.profile-img img {
+    width: 100px; /* Tamanho da imagem */
+    height: 100px; /* Tamanho da imagem */
+    border-radius: 50%; /* Formato arredondado */
+    object-fit: cover; /* A imagem vai se ajustar dentro do círculo */
 }
 
 /* Estilos para os blocos de texto com fundo claro */
@@ -89,19 +97,32 @@ nav.hidden {
     margin-bottom: 20px; /* Espaço entre os blocos */
 }
 
-/* Títulos dentro dos blocos de texto */
-.about-text h2,
-.about-text h3 {
+.about-text h2 {
     color: #333;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about-text h3 {
+    color: #008584;
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-/* Parágrafos dentro dos blocos de texto */
-.about-text p,
-.about-text ul {
-    color: #333;
+.about-text p {
     font-size: 1.1em;
-    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.about-text ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-text ul li {
+    font-size: 1.1em;
+    margin-bottom: 5px;
 }
 
 /* Estilos para links */
