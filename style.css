@@ -77,7 +77,7 @@ nav.hidden {
     margin-top: 30px;
 }*/
 
-/* Estilos do container que contém a imagem e o texto */
+/* Estilos do container que contém a imagem*/
 .about-container {
     display: flex;
     align-items: center;
@@ -87,8 +87,8 @@ nav.hidden {
 
 /* Estilos para a imagem de perfil */
 .profile-img img {
-    width: 120px; /* Tamanho da imagem (ajuste conforme necessário) */
-    height: 120px; /* Tamanho da imagem (ajuste conforme necessário) */
+    width: 150px; /* Tamanho da imagem */
+    height: 150px; /* Tamanho da imagem*/
     border-radius: 50%; /* Formato arredondado */
     object-fit: cover; /* A imagem vai se ajustar dentro do círculo */
 }
@@ -115,11 +115,6 @@ nav.hidden {
     font-size: 1.1em;
     margin-bottom: 15px;
     color: #333;
-    background-color: #fff; /* Fundo branco */
-    padding: 20px;
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    margin-top: 30px;
 }
 
 .about-text ul {
