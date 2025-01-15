@@ -82,16 +82,18 @@ nav.hidden {
     display: flex;
     align-items: center;
     gap: 20px; /* Espaçamento entre imagem e texto */
+    flex-wrap: wrap; /* Garante que a imagem e o texto se ajustem corretamente em telas menores */
 }
 
 /* Estilos para a imagem de perfil */
 .profile-img img {
-    width: 100px; /* Tamanho da imagem (ajuste conforme necessário) */
-    height: 100px; /* Tamanho da imagem (ajuste conforme necessário) */
+    width: 120px; /* Tamanho da imagem (ajuste conforme necessário) */
+    height: 120px; /* Tamanho da imagem (ajuste conforme necessário) */
     border-radius: 50%; /* Formato arredondado */
     object-fit: cover; /* A imagem vai se ajustar dentro do círculo */
 }
 
+/* Estilos para o texto de introdução */
 .about-text h2 {
     color: #333;
     font-size: 2em;
@@ -142,5 +144,15 @@ a:hover {
 
     #about-me {
         padding: 20px;
+    }
+
+    .about-container {
+        flex-direction: column; /* Coloca imagem e texto em coluna em dispositivos menores */
+        align-items: center; /* Centraliza imagem e texto */
+    }
+
+    .profile-img img {
+        width: 80px; /* Ajuste o tamanho da imagem em telas pequenas */
+        height: 80px; /* Ajuste o tamanho da imagem em telas pequenas */
     }
 }
