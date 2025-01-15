@@ -87,8 +87,8 @@ nav.hidden {
 
 /* Estilos para a imagem de perfil */
 .profile-img img {
-    width: 150px; /* Tamanho da imagem */
-    height: 150px; /* Tamanho da imagem*/
+    width: 170px; /* Tamanho da imagem */
+    height: 170px; /* Tamanho da imagem*/
     border-radius: 50%; /* Formato arredondado */
     object-fit: cover; /* A imagem vai se ajustar dentro do círculo */
 }
