@@ -71,7 +71,7 @@ nav.hidden {
 #about-me {
     display: flex; /* Organiza a imagem e o texto em linha */
     align-items: center; /* Alinha verticalmente o conteúdo */
-    justify-content: space-between; /* Espaça a imagem e o texto */
+    justify-content: flex-start; /* Alinha o conteúdo no início */
     background-color: #fff; /* Fundo branco */
     padding: 30px;
     border-radius: 8px; /* Bordas arredondadas */
@@ -80,11 +80,11 @@ nav.hidden {
 }
 
 .profile-img {
-    width: 100px; /* Largura reduzida da imagem */
-    height: 100px; /* Altura reduzida da imagem */
-    border-radius: 50%; /* Deixa a imagem redonda */
+    width: 120px; /* Ajuste o tamanho da imagem */
+    height: 120px; /* Ajuste o tamanho da imagem */
+    border-radius: 50%; /* Torna a imagem redonda */
     overflow: hidden; /* Garante que a imagem não ultrapasse o círculo */
-    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
+    margin-right: 30px; /* Espaçamento entre a imagem e o texto */
 }
 
 .profile-img img {
@@ -147,13 +147,15 @@ a:hover {
 
     #about-me {
         padding: 20px;
-        flex-direction: column; /* Alinha a imagem e o texto em coluna */
+        flex-direction: column; /* Organiza a imagem e o texto em coluna */
         text-align: center; /* Centraliza o texto */
     }
 
     .profile-img {
         margin-right: 0;
         margin-bottom: 20px; /* Espaçamento abaixo da imagem */
+        width: 100px; /* Tamanho da imagem reduzido */
+        height: 100px; /* Tamanho da imagem reduzido */
     }
 
     .about-text {
