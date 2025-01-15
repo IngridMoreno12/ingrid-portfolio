@@ -70,20 +70,30 @@ nav.hidden {
 
 /* Seção Sobre Mim */
 #about-me {
+    background-color: #fff; /* Fundo branco */
     padding: 30px;
     border-radius: 8px; /* Bordas arredondadas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
     margin-top: 30px;
 }
 
-/* Estilos para os blocos individuais dentro da seção Sobre Mim */
-.about-text {
-    background-color: #f5f5f5; /* Fundo claro para cada bloco */
-    padding: 20px;
-    border-radius: 8px; /* Bordas arredondadas */
-    margin-bottom: 20px; /* Espaço entre os blocos */
+/* Estilos do container que contém a imagem e o texto */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre imagem e texto */
+    flex-wrap: wrap; /* Garante que a imagem e o texto se ajustem corretamente em telas menores */
 }
 
+/* Estilos para a imagem de perfil */
+.profile-img img {
+    width: 120px; /* Tamanho da imagem (ajuste conforme necessário) */
+    height: 120px; /* Tamanho da imagem (ajuste conforme necessário) */
+    border-radius: 50%; /* Formato arredondado */
+    object-fit: cover; /* A imagem vai se ajustar dentro do círculo */
+}
+
+/* Estilos para o texto de introdução */
 .about-text h2 {
     color: #333;
     font-size: 2em;
