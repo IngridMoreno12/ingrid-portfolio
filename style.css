@@ -77,6 +77,21 @@ nav.hidden {
     margin-top: 30px;
 }
 
+/* Estilos do container que contém a imagem e o texto */
+.about-container {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaçamento entre imagem e texto */
+}
+
+/* Estilos para a imagem de perfil */
+.profile-img img {
+    width: 100px; /* Tamanho da imagem (ajuste conforme necessário) */
+    height: 100px; /* Tamanho da imagem (ajuste conforme necessário) */
+    border-radius: 50%; /* Formato arredondado */
+    object-fit: cover; /* A imagem vai se ajustar dentro do círculo */
+}
+
 .about-text h2 {
     color: #333;
     font-size: 2em;
