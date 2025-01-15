@@ -7,11 +7,12 @@
 
 /* Corpo */
 body {
-    font-family: 'Roboto', sans-serif; /* Fonte limpa e moderna */
-    background-color: #f5f5f5; /* Cor de fundo clara */
-    color: #333; /* Cor do texto */
-    line-height: 1.6; /* Melhora a legibilidade */
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
     padding: 20px;
+    padding-top: 80px; /* Garantindo que o conteúdo não fique sobrepondo a barra */
 }
 
 /* Barra de Navegação */
@@ -53,13 +54,14 @@ nav.hidden {
 
 /* Seção Sobre Mim */
 #about-me {
-    background-color: #fff; /* Fundo branco */
+    background-color: #fff;
     padding: 30px;
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-top: 30px;
 }
 
+/* Ajustes específicos para conteúdo */
 .about-text h2 {
     color: #333;
     font-size: 2em;
@@ -75,7 +77,6 @@ nav.hidden {
 .about-text p {
     font-size: 1.1em;
     margin-bottom: 15px;
-    color: #333;
 }
 
 .about-text ul {
@@ -116,6 +117,6 @@ a:hover {
 /* Estilos específicos para PC (largura maior que 768px) */
 @media (min-width: 768px) {
     body {
-        margin-top: 200px; /* Ajuste maior para desktops, pode aumentar se necessário */
+        padding-top: 90px; /* Margem superior maior para desktops */
     }
 }
