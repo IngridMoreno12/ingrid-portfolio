@@ -68,59 +68,32 @@ nav.hidden {
     top: -60px; /* Esconde a barra ao rolar para baixo */
 }
 
-/* Seção Sobre Mim */
-#about-me {
-    background-color: #fff; /* Fundo branco */
-    padding: 30px;
-    border-radius: 8px; /* Bordas arredondadas */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    margin-top: 30px;
-}
+<section id="about-me">
+    <div class="about-container">
+        <div class="profile-img">
+            <img src="IMG_4152.jpeg" alt="Ingrid's Profile">
+        </div>
+        
+        <div class="about-text">
+            <h2>Sobre Mim</h2>
+            <h3>Introdução</h3>
+            <p>Olá, seja muito bem-vindo ao meu portfólio! Me chamo Ingrid Moreno, e aqui você pode conferir meus trabalhos e estudos. Espero que goste!</p>
+        </div>
 
-/* Estilos do container que contém a imagem e o texto */
-.about-container {
-    display: flex;
-    align-items: center;
-    gap: 20px; /* Espaçamento entre imagem e texto */
-    flex-wrap: wrap; /* Garante que a imagem e o texto se ajustem corretamente em telas menores */
-}
+        <div class="about-text">
+            <h3>Formação Acadêmica</h3>
+            <p>Ex-aluna do Colégio Pedro II, cursei Ensino Médio Técnico em Desenvolvimento de Sistemas, onde dei o primeiro passo nos estudos sobre o universo da Tecnologia da Informação. Atualmente, sou estudante do último ano de Sistemas de Informação na Universidade de São Paulo e busco sempre desenvolver novas habilidades e ampliar meus conhecimentos.</p>
+        </div>
 
-/* Estilos para a imagem de perfil */
-.profile-img img {
-    width: 120px; /* Tamanho da imagem (ajuste conforme necessário) */
-    height: 120px; /* Tamanho da imagem (ajuste conforme necessário) */
-    border-radius: 50%; /* Formato arredondado */
-    object-fit: cover; /* A imagem vai se ajustar dentro do círculo */
-}
+        <div class="about-text">
+            <h3>Experiência Profissional</h3>
+            <p>Atualmente, sou estagiária de Engenharia de Analytics no Itaú, trabalhando com ferramentas como Athena, Step Functions, S3, Quicksight e SQL. Acredito no poder dos dados para transformar negócios e estou empolgada com as possibilidades que a análise de dados abrem no setor financeiro. Antes disso, trabalhei como Data Labeler no Nubank, onde pude desenvolver minhas habilidades de comunicação e trabalho em equipe.</p>
+        </div>
 
-/* Estilos para o texto de introdução */
-.about-text h2 {
-    color: #333;
-    font-size: 2em;
-    margin-bottom: 15px;
-}
+        <!-- Adicione mais tópicos conforme necessário -->
+    </div>
+</section>
 
-.about-text h3 {
-    color: #008584;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.about-text p {
-    font-size: 1.1em;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.about-text ul {
-    list-style: none;
-    padding-left: 0;
-}
-
-.about-text ul li {
-    font-size: 1.1em;
-    margin-bottom: 5px;
-}
 
 /* Estilos para links */
 a {
