@@ -1,25 +1,47 @@
-/* Corpo */
-body {
-    font-family: 'Roboto', sans-serif; /* Fonte limpa e moderna */
-    background-color: #f5f5f5; /* Cor de fundo clara */
-    color: #333; /* Cor do texto */
-    line-height: 1.6; /* Melhora a legibilidade */
-    padding: 0 20px;
-    margin-top: 80px; /* Adiciona uma margem superior para não sobrepor o cabeçalho */
+/* Seção Sobre Mim */
+#about-me {
+    display: flex; /* Organiza a imagem e o texto em linha */
+    align-items: center; /* Alinha verticalmente o conteúdo */
+    justify-content: space-between; /* Espaça a imagem e o texto */
+    background-color: #fff; /* Fundo branco */
+    padding: 30px;
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    margin-top: 30px;
 }
 
-/* Cabeçalho */
-header {
-    text-align: center;
-    margin-top: 0; /* Retira a margem do cabeçalho */
+.profile-img {
+    width: 100px; /* Largura reduzida da imagem */
+    height: 100px; /* Altura reduzida da imagem */
+    border-radius: 50%; /* Deixa a imagem redonda */
+    overflow: hidden; /* Garante que a imagem não ultrapasse o círculo */
+    margin-right: 20px; /* Espaçamento entre a imagem e o texto */
 }
 
-header h1 {
-    color: #008584; /* Cor verde vibrante */
-    font-size: 2.5em;
+.profile-img img {
+    width: 100%; /* Faz a imagem ocupar toda a área da div */
+    height: 100%; /* Faz a imagem ocupar toda a área da div */
+    object-fit: cover; /* Garante que a imagem não distorça */
 }
 
-header p {
-    font-size: 1.2em;
-    color: #666;
+.about-text {
+    max-width: 700px; /* Limita a largura do texto */
+}
+
+.about-text h2 {
+    color: #333;
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.about-text h3 {
+    color: #008584;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.about-text p {
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #333;
 }
