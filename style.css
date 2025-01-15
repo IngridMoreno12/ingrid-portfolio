@@ -12,6 +12,7 @@ body {
     color: #333; /* Cor do texto */
     line-height: 1.6; /* Melhora a legibilidade */
     padding: 20px;
+    margin-top: 80px; /* Adicionando margem superior para o conteúdo não ficar sobre a barra */
 }
 
 /* Cabeçalho */
@@ -69,32 +70,11 @@ nav.hidden {
 
 /* Seção Sobre Mim */
 #about-me {
-    display: flex; /* Organiza a imagem e o texto em linha */
-    align-items: center; /* Alinha verticalmente o conteúdo */
-    justify-content: flex-start; /* Alinha o conteúdo no início */
     background-color: #fff; /* Fundo branco */
     padding: 30px;
     border-radius: 8px; /* Bordas arredondadas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
     margin-top: 30px;
-}
-
-.profile-img {
-    width: 120px; /* Ajuste o tamanho da imagem */
-    height: 120px; /* Ajuste o tamanho da imagem */
-    border-radius: 50%; /* Torna a imagem redonda */
-    overflow: hidden; /* Garante que a imagem não ultrapasse o círculo */
-    margin-right: 30px; /* Espaçamento entre a imagem e o texto */
-}
-
-.profile-img img {
-    width: 100%; /* Faz a imagem ocupar toda a área da div */
-    height: 100%; /* Faz a imagem ocupar toda a área da div */
-    object-fit: cover; /* Garante que a imagem não distorça */
-}
-
-.about-text {
-    max-width: 700px; /* Limita a largura do texto */
 }
 
 .about-text h2 {
@@ -147,18 +127,5 @@ a:hover {
 
     #about-me {
         padding: 20px;
-        flex-direction: column; /* Organiza a imagem e o texto em coluna */
-        text-align: center; /* Centraliza o texto */
-    }
-
-    .profile-img {
-        margin-right: 0;
-        margin-bottom: 20px; /* Espaçamento abaixo da imagem */
-        width: 100px; /* Tamanho da imagem reduzido */
-        height: 100px; /* Tamanho da imagem reduzido */
-    }
-
-    .about-text {
-        max-width: 100%;
     }
 }
