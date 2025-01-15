@@ -116,6 +116,6 @@ a:hover {
 /* Estilos específicos para PC (largura maior que 768px) */
 @media (min-width: 768px) {
     body {
-        margin-top: 90px; /* Ajuste maior para desktops, pode aumentar se necessário */
+        margin-top: 200px; /* Ajuste maior para desktops, pode aumentar se necessário */
     }
 }
