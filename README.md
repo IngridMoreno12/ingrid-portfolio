@@ -9,14 +9,14 @@
 
 ### 🧠 Meus conhecimentos
 
-![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5&color=%23DF7401&logoColor=white)
-![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&color=%230080FF&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-333333?style=flat&logo=python&color=%23FFFF00&logoColor=black)
-![AWS](https://img.shields.io/badge/-AWS-333333?style=flat&logo=amazonaws&color=%23FF9900&logoColor=white)
-![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql&color=%2301A9DB&logoColor=white)
-![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git&color=%23F1502F&logoColor=white)
-![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github&color=%23181717&logoColor=white)
-![Visual Studio Code](https://img.shields.io/badge/-VS%20Code-333333?style=flat&logo=visual-studio-code&color=%23007ACC&logoColor=white)
+![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5&color=%23DF7401&logoColor=%23000000)
+![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=%23000000&color=%230080FF)
+![Python](https://img.shields.io/badge/Python-333333?logo=python&color=%23FFFF00)
+![AWS](https://img.shields.io/badge/AWS-333333?logo=amazonwebservices&color=%23000000)
+![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql&logoColor=%23000000&color=%2301A9DB)
+![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git&color=%2361380B)
+![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github&color=%23FF8000)
+![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC&color=%238904B1)
 
 ### 💌 Contato
 
